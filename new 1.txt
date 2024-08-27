@@ -1,0 +1,34 @@
+wishlist-app/
+│
+├── models/	
+│   ├── Item.js
+│   ├── User.js
+│   └── Wishlist.js
+│
+├── public/
+│   ├── css/
+│   │   └── styles.css
+│   │
+│   ├── images/
+│   │   └── (مكان لوضع الصور)
+│   │
+│   ├── js/
+│   │   ├── scripts.js
+│   │   └── wishlists.js
+│   │
+│   ├── index.html
+│   ├── register.html
+│   ├── admin.html
+│   └── wishlist.html
+│
+├── routes/
+│   ├── auth.js
+│   ├── wishlist.js
+│   └── admin.js
+│
+├── middleware/
+│   └── auth.js
+│
+├── server.js
+├── logging.js
+└── package.json

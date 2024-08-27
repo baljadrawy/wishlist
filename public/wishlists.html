@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/wishlists.js" defer></script>
+    <title>قائمة الأمنيات</title>
+</head>
+<body>
+    <div class="container">
+        <header><h1>قائمة الأمنيات</h1></header>
+        <div id="wishlist">
+            <!-- سيتم عرض العناصر هنا -->
+        </div>
+        <div>
+            <input type="text" id="itemTitle" placeholder="عنوان العنصر">
+            <input type="text" id="itemDescription" placeholder="وصف العنصر">
+            <input type="text" id="itemImage" placeholder="رابط الصورة">
+            <button onclick="addItem('USER_ID')">إضافة عنصر</button>
+        </div>
+    </div>
+</body>
+</html>
