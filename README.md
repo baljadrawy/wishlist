@@ -36,7 +36,7 @@ Copy code
 احصل على CHAT_ID الخاص بك أو الخاص بالمجموعة التي ترغب في إرسال التنبيهات إليها.
 قم بتعديل ملف logging.js بالقيم الصحيحة لـ TELEGRAM_BOT_TOKEN و TELEGRAM_CHAT_ID:
 
-   ```javascript
+   javascript
 
    const TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN';
    const TELEGRAM_CHAT_ID = 'YOUR_TELEGRAM_CHAT_ID';
