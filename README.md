@@ -20,7 +20,7 @@ Copy code
    ```bash
    git clone https://github.com/baljadrawy/wishlist-app.git
    cd wishlist-app
-## تثبيت التبعيات:
+** تثبيت التبعيات:**
 
 تأكد من أنك داخل المجلد الرئيسي للمشروع، ثم قم بتثبيت التبعيات باستخدام npm:
 
