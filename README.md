@@ -18,7 +18,7 @@ Copy code
 1. **استنساخ المشروع:**
 
    ```bash
-   git clone https://github.com/yourusername/wishlist-app.git
+   git clone https://github.com/baljadrawy/wishlist-app.git
    cd wishlist-app
 تثبيت التبعيات:
 
