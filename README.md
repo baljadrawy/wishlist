@@ -24,8 +24,8 @@ Copy code
 
 تأكد من أنك داخل المجلد الرئيسي للمشروع، ثم قم بتثبيت التبعيات باستخدام npm:
 
-```bash
-npm install
+   ```bash
+   npm install
 ** إعداد قاعدة البيانات:**
 
 تأكد من أن MongoDB تعمل على جهازك. ستقوم بإنشاء قاعدة البيانات تلقائيًا عند تشغيل الخادم.
@@ -36,17 +36,17 @@ npm install
 احصل على CHAT_ID الخاص بك أو الخاص بالمجموعة التي ترغب في إرسال التنبيهات إليها.
 قم بتعديل ملف logging.js بالقيم الصحيحة لـ TELEGRAM_BOT_TOKEN و TELEGRAM_CHAT_ID:
 
-```javascript
+   ```javascript
 
-const TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN';
-const TELEGRAM_CHAT_ID = 'YOUR_TELEGRAM_CHAT_ID';
+   const TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN';
+   const TELEGRAM_CHAT_ID = 'YOUR_TELEGRAM_CHAT_ID';
 **تشغيل التطبيق:**
 
 بعد إتمام الإعداد، قم بتشغيل الخادم باستخدام:
 
-```bash
+   ```bash
 
-npm start
+   npm start
 التطبيق سيعمل على: http://localhost:3000
 
 **بنية المشروع**
